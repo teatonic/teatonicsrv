@@ -20,16 +20,7 @@ cd tango
 
 
 
-### install teatonicsrv
-
-```
-cd $HOME
-git clone https://github.com/StudioEtrange/teatonicsrv
-cd teatonicsrv
-./teatonicsrv install
-```
-
-## Modify configuration
+## configuration
 
 * Modify `teatonicsrv.env` file  OR create a `teatonicsrv.env` file into `$HOME/teatonicsrv.env`
     * override any value from `teatonicsrv/teatonicsrv.env`
