@@ -29,11 +29,7 @@ git clone https://github.com/StudioEtrange/teatonicsrv
 
 ## configuration
 
-* Modify `teatonicsrv.env` file  OR create a `teatonicsrv.env` file into `$HOME/teatonicsrv.env`
-    * override any value from `teatonicsrv/teatonicsrv.env`
-
-
-
+* Modify `teatonicsrv.env` file
 
 ## commands
 
