@@ -8,7 +8,7 @@ Based on Tango generator : https://github.com/StudioEtrange/tango
 ## install
 
 
-### install tango
+### install/update tango dependencies
 
 
 ```
