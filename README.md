@@ -44,7 +44,7 @@ git clone https://github.com/StudioEtrange/teatonicsrv
     |NETWORK_PORT_MAIN_SECURE|exposed HTTPS port for `main` area network|`443`|
     |NETWORK_PORT_ADMIN|exposed HTTP port for `admin` area network|`58000`|
     |NETWORK_PORT_ADMIN_SECURE|exposed HTTPS port for `admin` area network |`58343`|
-    |CTX_DATA_PATH|root path where all traefik and modules data will be stored. Can be absolute or relative to `workspace` folder|`data`|
+    |CTX_DATA_PATH|root path where all traefik and modules data will be stored. Can be absolute or relative to `teatonicsrv/workspace` folder|`data`|
 
 * NOTE : there is two logical network area and each module is attached to one of them
     * `main` area network group generic module, and may be acessible from outside of your network. Modules are attached to it by default.
