@@ -3,13 +3,3 @@ services:
     environment:
       - INJECTED_VARIABLE=value
 
-  sampleshell:
-    image: bash
-    container_name: ${TANGO_INSTANCE_NAME}_sampleshell
-    user: ${TANGO_USER_ID:-0}:${TANGO_GROUP_ID:-0}
-    env_file:
-      - ${GENERATED_ENV_FILE_FOR_COMPOSE}
-    networks:
-      - default
-    command: >
-      bash -c "echo Hello"

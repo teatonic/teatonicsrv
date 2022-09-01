@@ -47,8 +47,8 @@ git clone https://github.com/StudioEtrange/teatonicsrv
     |CTX_DATA_PATH|root path where all traefik and modules data will be stored. Can be absolute or relative to `teatonicsrv/workspace` folder|`data`|
 
 * NOTE : there is two logical network area and each module is attached to one of them
-    * `main` area network group generic module, and may be acessible from outside of your network. Modules are attached to it by default.
-    * `admin` area network group admin module like traefik or portainer, and should not be acessible from outside of your network
+    * `main` area network is dedicated for generic modules, and may be acessible from outside of your network. Modules are attached to it by default.
+    * `admin` area network is dedicated for admin modules like traefik or portainer, and should not be acessible from outside of your network
 
 ### Certificate generation with lets encrypt
 
