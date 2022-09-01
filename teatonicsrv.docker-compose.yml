@@ -1,3 +1,5 @@
+# this docker-compose.yml file will be merged with the generated docker-compose.yml file
+
 services:
   traefik:
     environment:

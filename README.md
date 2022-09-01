@@ -1,12 +1,11 @@
 # Teatonic Services
 
-A full sample of services.
-Based on Tango generator : https://github.com/StudioEtrange/tango
+A full sample of services used as a demo for Tango generator : https://github.com/StudioEtrange/tango
 
 ## Installation
 
 
-### Install and update tango dependencies
+### Install or update tango dependencies
 
 
 ```
@@ -46,9 +45,9 @@ git clone https://github.com/StudioEtrange/teatonicsrv
     |NETWORK_PORT_ADMIN_SECURE|exposed HTTPS port for `admin` area network |`58343`|
     |CTX_DATA_PATH|root path where all traefik and modules data will be stored. Can be absolute or relative to `teatonicsrv/workspace` folder|`data`|
 
-* NOTE : there is two logical network area and each module is attached to one of them
+* NOTE : there is two logical networks area and each module is attached to one of them
     * `main` area network is dedicated for generic modules, and may be acessible from outside of your network. Modules are attached to it by default.
-    * `admin` area network is dedicated for admin modules like traefik or portainer, and should not be acessible from outside of your network
+    * `admin` area network is dedicated for admin kind modules like traefik or portainer, and should not be acessible from outside of your network
 
 ### Certificate generation with lets encrypt
 
@@ -57,7 +56,7 @@ git clone https://github.com/StudioEtrange/teatonicsrv
     |variable name|description|sample value|
     |-|-|-|
     |LETS_ENCRYPT|`enable`/`disable` certificate generation. `debug` allow to test certificate generation without beeing ban for spam by letsencrypt|`enable`|
-    |LETS_ENCRYPT_MAIL|mail use to request certificate to lets encryot|`no@no.com`|
+    |LETS_ENCRYPT_MAIL|mail used to request certificate to lets encryot|`no@no.com`|
 
 
 ## Available commands
