@@ -2,6 +2,7 @@
 
 A full sample of services used as a demo for Tango generator : https://github.com/StudioEtrange/tango
 
+---
 ## Installation
 
 
@@ -23,6 +24,7 @@ cd $HOME
 git clone https://github.com/StudioEtrange/teatonicsrv
 ```
 
+---
 ## Configuration
 
 
@@ -59,9 +61,9 @@ git clone https://github.com/StudioEtrange/teatonicsrv
     |variable name|description|default value|sample value|
     |-|-|-|-|
     |LETS_ENCRYPT|`enable`/`disable` certificate generation. `debug` allow to test certificate generation without beeing ban for spam by letsencrypt|`disable`|`debug`|
-    |LETS_ENCRYPT_MAIL|mail used to request certificate to lets encryot||`no@no.com`|
+    |LETS_ENCRYPT_MAIL|mail used to request certificate from lets encrypt||`no@no.com`|
 
-
+---
 ## Available commands
 
 ```
