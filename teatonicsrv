@@ -8,7 +8,7 @@ _CURRENT_RUNNING_DIR="$( cd "$( dirname "." )" && pwd )"
 # TANGO lookup order
 #       1. TANGO_ROOT is defined externally ==> instance mode : isolated or shared
 #       2. "${_CURRENT_FILE_DIR}/../tango"  ==> instance mode : isolated or shared
-#       3. "teatonicsrv/tango"              ==> instance mode : isolated only. shared instance is not compatible with this location
+#       3. "${_CURRENT_FILE_DIR}/tango"              ==> instance mode : isolated only. shared instance is not compatible with this location
 INTERNAL_TANGO_ROOT="${_CURRENT_FILE_DIR}/tango"
 INSTANCE_MODE_SHARED_OK=
 if [ "${TANGO_ROOT}" = "" ]; then
