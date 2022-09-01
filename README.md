@@ -1,14 +1,12 @@
 # Teatonic Services
 
-*WIP - do not use YET*
-
-A distribution of services.
+A full sample of services.
 Based on Tango generator : https://github.com/StudioEtrange/tango
 
-## install
+## Installation
 
 
-### install/update tango dependencies
+### Install and update tango dependencies
 
 
 ```
@@ -19,7 +17,6 @@ cd tango
 ```
 
 
-
 ### install teatonicsrv
 
 ```
@@ -27,19 +24,45 @@ cd $HOME
 git clone https://github.com/StudioEtrange/teatonicsrv
 ```
 
-## configuration
+## Configuration
 
-* modify `$HOME/teatonicsrv/teatonicsrv.env` file 
+* modify `$HOME/teatonicsrv/teatonicsrv.env` file according to your needs
 
-## commands
+## Available commands
 
 ```
 cd $HOME
 cd teatonicsrv
+```
 
-./teatonicsrv info
+
+
+* launch all services
+```
 ./teatonicsrv up
+```
+
+* stop all services
+```
 ./teatonicsrv down
+```
+
+* get info
+```
+./teatonicsrv info
+```
+
+* get status on services
+```
 ./teatonicsrv status
+```
+
+* generate full traefik and compose configuration files
+```
 ./teatonicsrv gen
+```
+
+* get help
+```
+./teatonicsrv -h
 ```
