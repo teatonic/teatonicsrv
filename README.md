@@ -98,6 +98,11 @@ cd teatonicsrv
 ./teatonicsrv gen
 ```
 
+* get a list of available modules
+```
+./teatonicsrv modules list
+```
+
 * get help
 ```
 ./teatonicsrv -h
